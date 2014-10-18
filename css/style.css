@@ -1,0 +1,307 @@
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,td,form,input,select,textarea,span,img,a,em,strong,*{ margin:0; padding:0; }
+body{ font-family:"宋体"; font-size:12px; color:#000000;}
+ul,ol,li{ list-style:none;}
+h1,h2,h3,h4,h5,h6{ font-size:14px;}
+input,select,textarea{ vertical-align:middle;}
+img{ border:none;  vertical-align:middle;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ color:#003366;}
+.clear{ clear:both; height:0px; width:0px; overflow:hidden;}
+
+.wrap{
+	width: 100%; height: 100%; margin: 0 auto;
+}
+.top{
+	width: 1002px; height: 97px; background: #fff; margin: 0 auto; 
+}
+.top-nav{
+	float: left;height: 100%;position: relative; width: 465px; margin-left: 15px;
+}
+.top-nav ul{
+	 height: 100%;
+}
+.top-nav ul li{
+	float: left; width: 60px; background: url(../img/x.png) no-repeat right center; margin-right: 15px; margin-top: 50px; 
+}
+.top-nav ol{
+	width: 60px; border: 1px #ccc solid; position: absolute; background: #fff; left: 0; bottom: -100%; display: none;
+}
+.top-nav ol li{
+	width: 50px; height: 20px; line-height: 20px; border-bottom: 1px #ccc solid; padding-left: 10px;
+}
+.top-nav ol .hui{
+	background: #ccc;
+}
+.top form{
+	margin-top: 40px; float: right; 
+}
+.top form #it{
+	width: 247px; height: 28px; background: #F3F3F3; border: none;
+}
+.top form #ib{
+	width: 54px; height: 28px; background: #F3F3F3; border: none; background: url(../img/sprites_base.png) no-repeat;
+}
+.nav{
+	width: 100%; height: 65px; background: url(../img/sprites_base.png) repeat-x left bottom; 
+}
+.nav ul{
+	width: 1002px; height: 100%;margin:  0 auto; 
+}
+.nav ul li{
+	float: left; line-height: 65px;  width: 200px;  height: 65px;font-size: 18px;  text-align: center;
+}
+.nav ul li.lv{ 
+	height: 60px; line-height: 60px;width: 200px; border-bottom: 5px #10A8AB solid; background: #34312C; 
+}
+.nav ul li a{
+	 color: #fff; 
+}
+.nav ul li span{
+	background: url(../img/sprites_base.png) no-repeat; display: block; width: 50px; height: 100%; float: left;
+}
+.nav ul .nli1 span{
+	 background-position:left -28px;
+}
+.nav ul .nli2 span{
+	background-position:left -92px;
+}
+.nav ul .nli3 span{
+	background-position:left -159px;
+}
+.nav ul .nli4 span{
+	background-position:left -225px;
+}
+.nav ul .nli5 span{
+	background-position:left -290px;
+}
+.nav ul .nli1 .span{
+	 background-position:-205px -28px;
+}
+.nav ul .nli2 .span{
+	background-position:-205px -92px;
+}
+.nav ul .nli3 .span{
+	background-position:-205px -159px;
+}
+.nav ul .nli4 .span{
+	background-position:-205px -225px;
+}
+.nav ul .nli5 .span{
+	background-position:-205px -290px;
+}
+.nav1{
+	height: 21px; width: 100%; margin: 10px 0;
+}
+.nav1 ol{
+	height: 21px; width: 1002px; margin: 0 auto; background: #fff;
+}
+.nav1 ol li{
+	line-height: 19px; height: 19px; float: left; border-left: 1px #F3F3F3 solid;
+}
+.nav1 ol li a{
+	 color: #929292; display: block; margin: 0 15px; padding: 2px 4px;
+}
+.nav1 ol .xlv a{
+	 color: #fff; background: #10A8AB;
+}
+.nav1 ol .no{
+	border-left:none;
+}
+.banner{
+	height: 310px; width: 1002px; margin: 0 auto;
+}
+.left{ 
+	float: left; width: 235px; height: 100%; background: #FE5A01; position: relative; z-index: 5;
+}
+.left h1{
+	height: 50px; width: 100%; line-height: 50px; font-size: 18px; color: #fff; background: #FE5A01;
+}
+.left h1 span{
+	width: 20%; height: 100%; background: url(../img/sprites.png) no-repeat; display: block;float: left;
+}
+.left .ltitle{
+	width: 100%;background: #FF6C0D;
+}
+.left .ltitle li{
+	height: 37px; line-height: 37px; width: 100%; 
+}
+.left .ltitle li span{
+	height: 100%; width:25%; float: left; background: url(../img/sprites.png) no-repeat;  
+}
+.left .ltitle li a{
+	color: #fff; font-size: 15px; display: block; line-height: 17px; background: #000; width: 72%; height: 17px; float: left; background: url(../img/sprites.png) no-repeat right -309px;margin-right: 3%; margin-top: 10px;
+}
+.left .ltitle .leftli1 span{
+	background-position: left -53px;	
+}
+.left .ltitle .leftli2 span{
+	background-position: left -89px;	
+}
+.left .ltitle .leftli3 span{
+	background-position: left -124px;	
+}
+.left .ltitle .leftli4 span{
+	background-position: left -159px;	
+}
+.left .ltitle .leftli5 span{
+	background-position: left -195px;	
+}
+.left .ltitle .leftli6 span{
+	background-position: left -230px;	
+}
+.left .ltitle .leftli7 span{
+	background-position: left -266px;	
+}
+.lcontent{
+	width: 520px;background: #fff; border: 1px #000 solid; position: absolute; right: -520px; top: 0; z-index: 5;display: none;
+}
+.lcontent div{
+	display: none;
+}
+.lcontent div dl{
+	width: 100%;  
+}
+.lcontent div dl dt{
+ 	width: 80px;float: left; text-align: right;  line-height: 28px; font-weight: bold;
+}
+.lcontent div dl dd{
+	float: left; width: 440px; height: 100%;
+}
+.lcontent div dl dd a{
+	padding: 0 10px; border-right: 1px #ccc solid; line-height: 20px; margin: 4px 0; display: block; float: left;
+}
+
+
+.center{
+	float: left; margin-left: 20px; width: 490px; height: 100%; background: #fff;
+}
+.banimg{
+	width: 100%; height: 100%; position: relative;
+}
+.banimg div img{
+	position: absolute;left: 0;top: 0; display: none;
+}
+.banimg ul{
+	width: 100%; height: 10px; position: absolute; left: 0; bottom: 0;
+}
+.banimg ul li{
+	width: 20%; height: 10px;opacity: 0.5; background: #000; float: left;
+}
+.banimg div .img1{
+	display: block;
+}
+.banimg ul .liang{
+	opacity: 1;
+}
+
+.right{
+	float: right; width: 234px; height: 100%; background: #fff;
+}
+.phone ul{
+	width: 100%;  height: 28px;  border-bottom: 1px #ccc solid; margin-top: 15px;
+}
+.phone ul li{
+	float: left; width: 33%; height: 26px; line-height: 26px; text-align: center; margin-top: 1px;
+}
+.phone ul .huang{
+	margin-top: 0px; border: 1px #ccc solid; border-bottom: none;
+}
+.phone ul .huang a{
+	font-weight: bold; color: #FF6400; 
+}
+.content{
+	height: 185px; width: 100%;  overflow: hidden;
+}
+.content ol{
+	display: none;
+}
+.content ol li{
+	line-height: 32px; height: 32px; padding-left: 20px; background: url(../img/sprites_sub.png) no-repeat left -113px;
+}
+.content ol li span{
+	color: #FF6400; margin-right: 5px;
+}
+.content .con-show{
+	display: block;
+}
+.main{
+	width: 1002px; height: 488px; margin: 20px auto;
+}
+.mleft{
+	width: 745px; height: 100%; float: left; 
+}
+.mleft h1{
+	height: 28px; width: 100%; line-height: 28px; border-bottom: 1px #f3f3f3 solid; margin-bottom: 10px; background: #fff;
+}
+.mleft h1 b{
+	float: left;
+}
+.mleft i{
+	 display: block; width: 4%;height: 100%;background: url(../img/sprites.png) no-repeat left -357px;float: left;
+}
+.mleft h1 span{
+	 float: right; font-weight: normal; font-size: 12px;
+}
+.mleft1{
+	width: 100%;margin-bottom:40px;  height: 205px;
+}
+.mleft1 dl{
+	width: 137px;float: left; position: relative; margin-left: 15px;
+}
+.mleft1 .dl1{
+	margin-left: 0;
+}
+.mleft1 dl dd{
+	position: absolute; height: 30px; width: 80%; background: #FF6704; left: 10%; bottom: -15px; line-height: 30px; text-align: center;
+}
+.mleft1 dl dd a{
+	color: #fff;
+}
+.mleft2{
+	width: 100%; height: 90px; margin-bottom: 15px;
+}
+.mleft2 p{
+	width: 117px; height: 85px; background: #F3F3F3; float: left; padding: 0 10px; padding-top: 15px; line-height: 20px; margin-left: 15px; position: relative;
+}
+.mleft2 .p1{
+	margin-left: 0;
+}
+.mleft2 span{
+	width:0;height:0;border-width:15px; display: block; border-style: dashed dashed solid dashed ;border-color: transparent transparent #f3f3f3; transparent; position: absolute; left: 50%; margin-left: -15px; top: -30px;
+}
+.mright{
+	height: 100%; width: 235px; float: right; 
+}
+.mright1{
+	height: 244px; width: 100%; background: #F3F3F3;
+}
+.mright1 h1{
+	height: 44px; width: 100%; background: #000; color: #fff; font-size: 20px; line-height: 44px;
+}
+.mright1 h1 span{
+	width: 20%; display: block; height: 100%;  background: url(../img/sprites_sub.png) no-repeat left top; float: left;
+}
+.mright1 form p{
+	line-height: 26px; margin-left: 20px; margin-top: 8px;
+}
+.mright1 form input{
+	border:none; width: 146px; height: 26px;
+}
+.mright1 form p select{
+	 width: 146px;height: 26px;
+}
+.mright1 a{
+	height: 35px; width: 90%; margin: 0 auto; display: block; background: #FF6704; line-height: 35px; text-align: center; font-size: 20px; color: #fff; margin-top: 10px;
+}
+.mright dl{
+	width: 100%; height: 214px;  margin-top: 30px;
+}
+.mright dl dt{
+	height: 176px; width: 100%;
+}
+.mright dl dt img{
+	width: 100%; height: 100%;
+}
+.mright dl dd{
+	height: 38px; width: 100%; line-height: 38px; text-align: center; background: #F3F3F3;
+}
